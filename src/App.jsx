@@ -3,6 +3,11 @@ import TimeoutComponent from "./usedComponents/TimeoutComponent"
 import DebounceComponent from "./usedComponents/DebounceComponent"
 import UseUpdateComponent from "./usedComponents/UseUpdateComponent"
 import ArrayComponent from "./usedComponents/ArrayComponent"
+import PreviousComponent from "./usedComponents/PreviousComponent"
+import StateWithHistoryComponent from "./usedComponents/StateWithHistoryComponent"
+import StorageComponent from "./usedComponents/StorageComponent"
+import AsyncComponent from "./usedComponents/AsyncComponent"
+import FetchCompnent from "./usedComponents/FetchComponent"
 function App() {
 
   return (
@@ -11,7 +16,12 @@ function App() {
       {/* <TimeoutComponent /> */}
       {/* <DebounceComponent /> */}
       {/* <UseUpdateComponent /> */}
-      <ArrayComponent />
+      {/* <ArrayComponent /> */}
+      {/* <PreviousComponent /> */}
+      {/* <StateWithHistoryComponent /> */}
+      {/* <StorageComponent /> */}
+      {/* <AsyncComponent /> */}
+      <FetchCompnent />
     </>
   )
 }
